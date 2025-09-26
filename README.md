@@ -1,5 +1,12 @@
-# 💫 About Me:
-I’m driven by the idea of creating projects that not only work but also convey something more.<br><br>I enjoy web development but always have been on the designing side. Now, finally, I'm trying to learn some coding. I have hopes of combining some good of both worlds: the efficiency of functionality and the beauty of aesthetics. <br><br>Technology makes sense when it becomes clear, intuitive, and, above all, approachable experience.<br><br>I have a restless, artistic soul that seeks to express itself in every visual detail, but also an analytical side that pushes me to find simple and effective solutions. I like to believe in that balance: creating with sensitivity, but also with purpose.<br><br>Right now I'm learning HTML/CSS/JS mostly website and light webapp oriented.<br><br>Next I'm definitely getting into game dev.<br><br>I'm aware coding isn't my strenght, but I could definitely be useful as crative work, storytelling and pre-prod design.
+# 🔥 About Me:
+Want to take part in projects that work but also convey something more. I have a restless, artistic soul that seeks to express itself in every visual detail, but also an analytical side that pushes me to find simple and effective solutions. I like to believe in that balance: creating with sensitivity, but also with purpose.
+<br><br>
+>Technology makes sense when it becomes a clear, intuitive, and approachable experience.
+
+<br>
+I enjoy web development but always have been on the designing side. Now, I'm finally trying to learn some coding. Hoping to combine some good of both worlds: the efficiency of functionality and the beauty of aesthetics. Right now I'm learning HTML/CSS/JS mostly website and light webapp oriented. Next I'm definitely getting into game dev.
+<br><br>
+I'm aware coding isn't my strenght, but I could definitely jump in and be useful at crative work, storytelling, weird scheming and pre-prod design.
 
 
 ## 🌐 Socials:

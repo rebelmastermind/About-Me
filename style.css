@@ -1,56 +1,71 @@
-/* Estilos base */
-body {
-  margin: 0;
-  font-family: system-ui, sans-serif;
-  line-height: 1.6;
-  background: #f5f5f5;
-  color: #333;
-}
+:root {
+  --color-fondo: #18171a;
+  --color-texto: rgb(228, 211, 119);
+  --color-principal: #03070f;
+  --color-link: #d2f8ff;
+  --fuente-principal: "Lexend Deca", sans-serif;
+  .neon {
+    color: white;
+    text-shadow: 2px 2px 0px rgba(255, 0, 255, 1),
+      -1px -1px 0px rgba(0, 0, 0, 1), -2px -3px 0px rgba(0, 255, 255, 1);
+  }
+  .neonicon {
+    filter: drop-shadow(2px 2px 0px rgba(255, 0, 255, 1));
+  }
 
-/* Cabecera */
-header {
-  background: #222;
-  color: #fff;
-  padding: 1rem;
-}
-header h1 {
-  margin: 0;
-}
-nav ul {
-  list-style: none;
-  padding: 0;
-  display: flex;
-  gap: 1rem;
-}
-nav a {
-  color: #fff;
-  text-decoration: none;
-}
-nav a:hover {
-  text-decoration: underline;
-}
+  body {
+    margin: 0;
+    font-family: "Lexend Deca";
+    background: var(--color-fondo);
+    color: var(--color-texto);
+    line-height: 1.6;
+    background-image: url(https://img.freepik.com/premium-vector/blurry-abstract-gradient-backgrounds_926199-4301546.jpg);
+    background-size: 100%;
+    background-blend-mode: color-burn;
+  }
 
-/* Contenido */
-main {
-  padding: 2rem;
-}
-button {
-  background: #007acc;
-  color: white;
-  border: none;
-  padding: 0.7rem 1.2rem;
-  border-radius: 4px;
-  cursor: pointer;
-}
-button:hover {
-  background: #005fa3;
-}
+  header {
+    background: var(--color-principal);
+    color: var(--color-texto);
+    padding: 2rem;
+    text-align: center;
+  }
 
-/* Footer */
-footer {
-  background: #222;
-  color: #ccc;
-  text-align: center;
-  padding: 1rem;
-  margin-top: 2rem;
+  main {
+    padding-left: 5rem;
+    padding-right: 5rem;
+  }
+
+  h1 {
+    font-size: 48px;
+    margin: 0 0 0 0;
+  }
+
+  h2 {
+    margin-top: 2rem;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  a {
+    color: rgba(0, 255, 255, 1);
+    text-shadow: -1px -1px 0px rgba(0, 0, 0, 1);
+    text-decoration: none;
+  }
+
+  a:hover {
+    text-decoration: underline;
+  }
+
+  footer {
+    float: right;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+    background: #000000;
+  }
 }

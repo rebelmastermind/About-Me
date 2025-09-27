@@ -3,7 +3,7 @@ I'm an old school designer, jack of all trades person trying to learn some codin
 <br><br>
 I'm aware coding isn't my strenght, but I could definitely jump in and be useful at crative work, storytelling, weird scheming and pre-prod design.
 
-[ABOUT ME](https://example.com)
+[ABOUT ME](https://rebelmastermind.github.io/rebelmastermind/)
 
 
 ## 🌐 Socials:

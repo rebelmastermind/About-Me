@@ -10,6 +10,8 @@
       -1px -1px 0px rgba(0, 0, 0, 1), -2px -3px 0px rgba(0, 255, 255, 1),
       1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 4px rgb(0, 195, 255),
       0 0 10px darkblue;
+    position: relative;
+    z-index: 10;
   }
   .neonicon {
     filter: drop-shadow(2px 2px 0px rgba(255, 0, 255, 1));
@@ -26,6 +28,10 @@
     overflow: clip;
     border-radius: 50%;
   }
+  .tagline {
+    position: relative;
+    z-index: 10;
+  }
 
   img {
     display: inline;
@@ -33,68 +39,90 @@
     height: 100%;
     width: auto;
   }
+
   body {
-    margin: 0;
+    margin: 0px;
+    padding-bottom: 10rem;
     font-family: "Lexend Deca";
     background: var(--color-fondo);
     color: var(--color-texto);
     line-height: 1.6;
     text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 2px rgb(0, 195, 255),
       0 0 5px darkblue;
-
     background-image: url(https://c4.wallpaperflare.com/wallpaper/836/51/737/lights-night-cityscape-wallpaper-preview.jpg);
     background-size: cover;
-    -webkit-backdrop-filter: blur(12px);
-    backdrop-filter: blur(12px);
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
   }
 
   header {
     background: var(--color-principal);
     color: var(--color-texto);
-    padding: 2rem 20% 2rem 0;
-    text-align: left;
-    inline-size: 155px;
-    overflow-wrap: break-word;
-    white-space: normal;
-}
-
-  }
-
-  main {
+    padding-top: 2rem;
     padding-left: 20%;
     padding-right: 20%;
-  }
 
-  h1 {
-    font-size: 48px;
-    margin: 0 0 0 0;
+    padding-bottom: 1rem;
+    text-align: left;
+    overflow-wrap: break-word;
+    white-space: normal;
   }
+}
 
-  h2 {
-    margin-top: 2rem;
-  }
+main {
+  padding-left: 20%;
+  padding-right: 20%;
+}
 
-  ul {
-    list-style: none;
-    padding: 0;
-  }
+h1 {
+  font-size: 48px;
+  margin: 0 0 0 0;
+}
 
-  a {
-    color: rgba(0, 255, 255, 1);
-    text-shadow: -1px -1px 0px rgba(0, 0, 0, 1);
-    text-decoration: none;
-  }
+h2 {
+  margin-top: 2rem;
+}
 
-  a:hover {
-    text-decoration: underline;
-  }
+ul {
+  list-style: none;
+  padding: 0;
+}
 
-  footer {
-    float: right;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-    font-size: 0.9rem;
-    background: #000000;
-  }
+a {
+  color: rgba(0, 255, 255, 1);
+  text-shadow: -1px -1px 0px rgba(0, 0, 0, 1);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+blockquote {
+  font: 18px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding-left: 20%;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-right: 15px;
+  display: block;
+  background-color: var(--color-principal);
+  color: rgb(228, 211, 119);
+  border-top: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  margin: 5px;
+  text-indent: 23px;
+  text-align: right;
+  filter: drop-shadow(6px 6px 15px rgba(255, 0, 255, 0.1));
+}
+
+footer {
+  position: fixed;
+  bottom: 40px;
+  right: 0;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+  background: var(--color-principal);
 }

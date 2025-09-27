@@ -7,33 +7,57 @@
   .neon {
     color: white;
     text-shadow: 2px 2px 0px rgba(255, 0, 255, 1),
-      -1px -1px 0px rgba(0, 0, 0, 1), -2px -3px 0px rgba(0, 255, 255, 1);
+      -1px -1px 0px rgba(0, 0, 0, 1), -2px -3px 0px rgba(0, 255, 255, 1),
+      1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 4px rgb(0, 195, 255),
+      0 0 10px darkblue;
   }
   .neonicon {
     filter: drop-shadow(2px 2px 0px rgba(255, 0, 255, 1));
   }
+  .image-cropper {
+    filter: drop-shadow(6px 6px 14px rgba(4, 0, 8, 0.6));
 
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    z-index: 10;
+    overflow: hidden;
+    border-radius: 50%;
+  }
+
+  img {
+    display: inline;
+    margin: 0 auto;
+    height: 100%;
+    width: auto;
+  }
   body {
     margin: 0;
     font-family: "Lexend Deca";
     background: var(--color-fondo);
     color: var(--color-texto);
     line-height: 1.6;
-    background-image: url(https://img.freepik.com/premium-vector/blurry-abstract-gradient-backgrounds_926199-4301546.jpg);
-    background-size: 100%;
-    background-blend-mode: color-burn;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5), 0 0 2px rgb(0, 195, 255),
+      0 0 5px darkblue;
+
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/836/51/737/lights-night-cityscape-wallpaper-preview.jpg);
+    background-size: cover;
+    -webkit-backdrop-filter: blur(12px);
+    backdrop-filter: blur(12px);
   }
 
   header {
     background: var(--color-principal);
     color: var(--color-texto);
-    padding: 2rem;
-    text-align: center;
+    padding: 2rem 15rem 2rem 15rem;
+    text-align: left;
   }
 
   main {
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 15rem;
+    padding-right: 15rem;
   }
 
   h1 {

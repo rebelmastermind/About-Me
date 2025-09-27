@@ -51,13 +51,13 @@
   header {
     background: var(--color-principal);
     color: var(--color-texto);
-    padding: 2rem 15rem 2rem 15rem;
+    padding: 2rem 30% 2rem 30%;
     text-align: left;
   }
 
   main {
-    padding-left: 15rem;
-    padding-right: 15rem;
+    padding-left: 30%;
+    padding-right: 30%;
   }
 
   h1 {

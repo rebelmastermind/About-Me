@@ -21,9 +21,9 @@
     height: 200px;
     position: absolute;
     top: 40px;
-    right: 50px;
+    right: 5%;
     z-index: 10;
-    overflow: hidden;
+    overflow: clip;
     border-radius: 50%;
   }
 
@@ -53,6 +53,11 @@
     color: var(--color-texto);
     padding: 2rem 30% 2rem 30%;
     text-align: left;
+    inline-size: 150px;
+    overflow-wrap: break-word;
+    white-space: normal;
+}
+
   }
 
   main {
